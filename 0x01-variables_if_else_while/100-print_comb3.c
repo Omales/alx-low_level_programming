@@ -9,10 +9,10 @@ int main(void)
 {
 	int d;
 
-	for (d = 89; d <= 100; d++)
+	for (d = 89; d <= 99; d++)
 	{
 		putchar(d);
-		if (d != 100)
+		if (d != 99)
 		{
 			putchar(',');
 			putchar(' ');
