@@ -9,7 +9,7 @@ int main(void)
 {
 	int d;
 
-	for (d = 48; d <= 98; d++)
+	for (d = 1; d <= 98; d++)
 	{
 		putchar(d);
 		if (d != 98)
