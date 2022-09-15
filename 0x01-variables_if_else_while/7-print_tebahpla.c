@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - print if the number is postive, zero, or negative
+ * main - prints the lowercase alphabet in reverse
  * Description: using the main function
- * this program prints "Programming is positive, zero, or negative
+ * this program prints the lowercase alphabet in reverse
  * Return: 0
  */
 
