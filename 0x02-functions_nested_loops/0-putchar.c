@@ -11,7 +11,7 @@
 int main(void)
 {
 	char _putchar[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
-	char c;
+	int c;
 
 	for (c = 0; c < 8; c++)
 	{
