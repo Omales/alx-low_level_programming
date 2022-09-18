@@ -10,10 +10,10 @@
  */
 int main(void)
 {
-	char _putchar[8] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'}
-	int c;
+	char _putchar[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
+	char c;
 
-	for (c = 0; c < sizeof(_putchar); c++)
+	for (c = 0; c < 8; c++)
 	{
 		putchar(_putchar[c]);
 	}
