@@ -1,14 +1,14 @@
-#include <stdlib.h>                                                                                                                                                                
-#include <stdio.h>                   
-#include <time.h>                                                                                                                                                                  
-/**                                                                                                                                                                                 *main - main block                                                                                                                                                               
- * Get a ramdom number and print the number                                                                                                                                        
- * and if it positive, negative, or zero                                                                                                                                           
+#include <stdio.h>
+#include <stdio.h>
+#include <time.h>
+/**
+ * main- this function prints a char
+ * Description: this funtion from main
+ * it prints a character
+ * Return: 0
  */
-
-main (void)
-	int _putchar
+int main(void)
 {
 	printf("_putchar,\n");
-	Return (0);
+	return (0);
 }
