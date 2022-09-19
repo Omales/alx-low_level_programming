@@ -7,7 +7,7 @@
  * it prints a-z in lowercase
  * Return: 0
  */
-int main(void)
+int main (void)
 {
 	void print_alphabet(void);
 	char ch;
@@ -18,5 +18,5 @@ int main(void)
 	}
 
 	putchar('\n');
-	return (0);
+
 }
