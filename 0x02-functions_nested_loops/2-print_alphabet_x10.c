@@ -6,7 +6,7 @@
  * this function prints a-z
  * Return: 0
  */
-void print_alphabet_x10(char c, char i);
+void print_alphabet_x10(void , void);
 int main(void)
 {
 	void print_alphabet_x10();
