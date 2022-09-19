@@ -1,6 +1,18 @@
 #include "main.h"
 #include <stdio.h>
 /**
+ * main- this function prints alphabets
+ * Description: this function print a-z
+ * this function prints a-z
+ * Return: 0
+ */
+
+void print_alphabet_x10(void);
+int main(void)
+{
+	return (0);
+}
+/**
  * print_alphabet_x10 - function to print abc 10 times
  * Return: 0
  */
@@ -18,15 +30,4 @@ void print_alphabet_x10(void)
 	}
 
 }
-/**
- * main- prints alpahbets
- * Description: this function prints alphabets a-z
- * this function prints from a-z
- * Return: 0
- */
-void print_alphabet_x10(void);
-int main(void)
-{
-	return (0);
 
-}
