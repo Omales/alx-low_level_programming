@@ -5,7 +5,7 @@
  * it prints a-z in lowercase
  * Return: 0
  */
-void print_alphabet()
+void print_alphabet(void)
 {
 	char ch;
 
