@@ -1,29 +1,11 @@
-#include <stdio.h>
 #include "main.h"
-#include <time.h>
 /**
- * main- this function prints a char
- * Description: this funtion from main
- * it prints a character
- * Return: 0
+ * reset_to_98 - updates the value *n points to.
+ * @n: the number to modify.
  */
 
-/**
- * reset_to_98 - Set pointer param to 98.
- * @n: int type pointer
- */
 void reset_to_98(int *n)
 
 {
 	*n = 98;
-}
-
-void reset_to_98 ();
-
-int main()
-
-{
-
-    return (0);
-
 }
