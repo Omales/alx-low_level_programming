@@ -1,9 +1,7 @@
-#include <stdio.h>
 #include "main.h"
-#include <time.h>
 
 /**
- * main- this function prints a char
+ *  0-putchar.c- this function prints a char
  * Description: this funtion from main
  * it prints a character
  * Return: 0
