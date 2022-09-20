@@ -7,19 +7,28 @@
  */
 int main(void)
 {
-	int s;
+	int c, i, k;
 
-	for (s = 57; s <= 100; s++)
+	for (c = '0'; c <= '9'; c++)
 	{
-		putchar(s);
-		if (s != 100)
+		for (i = '0'; i <= '9'; i++)
 		{
-			putchar(',');
-			putchar(' ');
+			for (k = '0'; k <= '9'; k++)
+			{
+				if (c < i && i < k)
+				{
+					putchar(c);
+					putchar(i);
+					putchar(k);
+					if (c != '7')
+					{
+						putchar(',');
+						putchar(' ');
+					}
+				}
+			}
 		}
 	}
 	putchar('\n');
 	return (0);
-
-
 }
