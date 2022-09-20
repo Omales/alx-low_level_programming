@@ -8,16 +8,23 @@
 int main(void)
 {
 	int d;
+	int j;
 
-	for (d = 1; d <= 98; d++)
+	for (d = '0'; d <= '9'; d++)
 	{
-		putchar(d);
-		if (d != 98)
+		for (j = '0'; j <= '9'; j++)
 		{
-			putchar(',');
-			putchar(' ');
+			if (d < j)
+			{
+				putchar(d);
+				putchar(j);
+				if (d != '8' || (d == '8' && j != '9'))
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
 		}
-
 	}
 	putchar('\n');
 	return (0);
